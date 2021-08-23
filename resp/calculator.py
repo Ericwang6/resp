@@ -34,8 +34,8 @@ class RESPCalculator(object):
         assert qm_engine in supported_qm_engine
         self.qm_engine = qm_engine
         self.qm_level = qm_level
-        self.charge = 0
-        self.mult = 1
+        self.charge = charge
+        self.mult = mult
 
         # work path init
         if not task_path:
