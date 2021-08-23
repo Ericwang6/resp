@@ -3,8 +3,8 @@ import numpy as np
 import json
 import os
 import warnings
-from gaussian import make_gaussian_input
-from multiwfn import gen_eqvcons, gen_fitcen, gen_chgcons, make_multiwfn_input, parse_chg
+from .gaussian import make_gaussian_input
+from .multiwfn import gen_eqvcons, gen_fitcen, gen_chgcons, make_multiwfn_input, parse_chg
 
 
 supported_qm_engine = ["gaussian"]
